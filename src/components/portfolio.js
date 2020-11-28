@@ -1,8 +1,9 @@
-import React from "react"
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import styled from "styled-components";
-import myApps from "../assets/data/portfolio-apps.json"
-import AppCard from "./appCard"
+import myApps from "../assets/data/portfolio-apps.json";
+import AppCard from "./appCard";
+import NavBar from "./nav";
 
 const PortfolioWrapper = styled.div`
 
@@ -14,6 +15,7 @@ const Portfolio = () => {
 
   return (
     <PortfolioWrapper>
+      <NavBar />
       <Container >
         <Row>
           {myApps.map(app => (
