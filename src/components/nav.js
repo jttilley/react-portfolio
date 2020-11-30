@@ -4,31 +4,21 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 const navWrapper = styled.nav`
-.navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
+  nav {
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
     display: flex;
+    flex-direction: row !important;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    height: 80px;
+    margin-bottom: 30px;
   }
-
-  .nav {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
+  navbar {
+    margin-bottom: 30px;
   }
 `;
 
-const NavBar = () => {
+const NavBar = ({title}) => {
   let [click, setClick] = useState(false);
   // const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -47,18 +37,25 @@ const NavBar = () => {
   ]
 
   return (
-    <navWrapper>
-      <Nav>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          {links.map(({ name, link }) => (
-            <li className='nav-item'>
-                <Link to={link} className='nav-links' onClick={closeMobileMenu}>
-                    {name}
-                </Link>
-            </li>
-          ))}
-        </ul>
-      </Nav>
+    <navWrapper className="navbar navbar-expand-lg navbar-light bg-light shadow" >
+      {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  */}
+
+      <div className="box">
+          <span className="title" href=""><h1>Jason Tilley</h1></span>
+          <span><h2>{title}</h2></span>
+      </div>
+
+      <div className="ml-auto" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            {links.map(({ name, link }) => (
+              <li className="nav-item">
+                <a className="nav-link" href={link}>{name}</a>
+              </li>
+            ))}
+          </ul>
+      </div>
     </navWrapper>
   );
 }
