@@ -12,6 +12,18 @@
     "img": "../images/BillBoardBudget.png",
     "imgDescription": "Bill Board budget page"
   },{
+    "title": "Employee Directory",
+    "github": "https://github.com/jttilley/employee-directory",
+    "deployed": "https://jttilley.github.io/employee-directory/",
+    "img": "../images/employeesDir.png",
+    "imgDescription": "List of employees info and a search bar"
+  },{
+    "title": "Workout Tracker",
+    "github": "https://github.com/jttilley/WorkoutTracker",
+    "deployed": "https://workout-tracker-37.herokuapp.com/",
+    "img": "../images/Workout_Tracker.png",
+    "imgDescription": "Charts and graphs about workouts"
+  },{
     "title": "Weather Dashboard",
     "github": "https://github.com/jttilley/WeatherDashboard",
     "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",

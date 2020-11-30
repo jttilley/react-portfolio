@@ -54,15 +54,6 @@ function Footer() {
     <FooterWrapper>
       <footer>
         <span>  
-          {/* <a href="https://www.linkedin.com/in/jason-t-tilley/">  
-            <i className="fab fa-linkedin">  </i>  
-          </a>
-        </span>
-        <span>
-          <a href="https://github.com/jttilley">  
-            <i className="fab fa-github">  </i>
-          </a> */}
-
           <a href="https://www.linkedin.com/in/jason-t-tilley/">  
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>

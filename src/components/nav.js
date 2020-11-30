@@ -15,7 +15,12 @@ const NavWrapper = styled.div`
     margin-bottom: 20px;
     flex-direction: row;
   }
-  
+  .box {
+    color: black;
+    a {
+      color: navy;
+    }
+  }
   @media screen and (max-width: 780) {
     #navbarNav {
       flex-direction: row;
@@ -49,7 +54,7 @@ const NavBar = ({title}) => {
     <NavWrapper>
       <Nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <div className="box">
-            <span className="title" href="/about"><h1>Jason Tilley</h1></span>
+            <a className="title" href="/about"><h1>Jason Tilley</h1></a>
         </div>
 
         <div className="ml-auto" id="navbarNav">
