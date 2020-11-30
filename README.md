@@ -14,7 +14,7 @@ Repo link: https://github.com/jttilley/react-portfolio
 Jason Tilley
 
 ## Tech Used
-HTTP, CSS, JavaScript, Bootstrap, React
+HTTP, CSS, JavaScript, Bootstrap, React, reactstrap, styled-components
 
 ## Table of Contents
   * [Example](#example)
