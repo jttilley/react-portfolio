@@ -4,6 +4,7 @@ import styled from "styled-components";
 import myApps from "../assets/data/portfolio-apps.json";
 import AppCard from "./appCard";
 import NavBar from "./nav";
+import Footer from "./footer";
 
 const PortfolioWrapper = styled.div`
 
@@ -30,6 +31,7 @@ const Portfolio = () => {
           ))}
         </Row>
       </Container>
+      <Footer />
     </PortfolioWrapper>
   );
 }

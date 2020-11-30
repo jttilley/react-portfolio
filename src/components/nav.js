@@ -3,18 +3,29 @@ import { Nav } from "reactstrap";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
-const navWrapper = styled.nav`
-  nav {
-    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-    display: flex;
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    margin-bottom: 30px;
+const navWrapper = styled.div`
+  span {
+    .fab {
+      font-size: 30pt;
+      margin-left: 50px;
+    }
   }
-  navbar {
-    margin-bottom: 30px;
+  nav {
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  
+  @media screen and (max-width: 780) {
+    #navbarNav {
+      flex-direction: row;
+      text-align: center;
+      justify-items: space-between;
+      align-content: center;
+    }
+    .items {
+        display: flex;
+        flex-direction: row;
+      }
   }
 `;
 
@@ -37,25 +48,32 @@ const NavBar = ({title}) => {
   ]
 
   return (
-    <navWrapper className="navbar navbar-expand-lg navbar-light bg-light shadow" >
-      {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>  */}
+    <navWrapper>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
+        <div className="box">
+            <span className="title" href="/about"><h1>Jason Tilley</h1></span>
+        </div>
 
-      <div className="box">
-          <span className="title" href=""><h1>Jason Tilley</h1></span>
-          <span><h2>{title}</h2></span>
-      </div>
-
-      <div className="ml-auto" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            {links.map(({ name, link }) => (
-              <li className="nav-item">
-                <a className="nav-link" href={link}>{name}</a>
+        <div className="ml-auto" id="navbarNav">
+            <ul className="navbar-nav ml-auto items">
+              {links.map(({ name, link }) => (
+                <li className="item">
+                  <a className="nav-link" href={link}>{name}</a>
+                </li>
+              ))}
+              <li className="icon">  
+                <a className="nav-link" href="https://www.linkedin.com/in/jason-t-tilley/">  
+                  <i className="fab fa-linkedin"> LinkedIn </i>  
+                </a>
               </li>
-            ))}
-          </ul>
-      </div>
+              <li className="icon">
+                <a className="nav-link" href="https://github.com/jttilley">  
+                  <i className="fab fa-github"> GitHub </i>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </nav>
     </navWrapper>
   );
 }

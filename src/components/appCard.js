@@ -8,40 +8,72 @@ const DetailsWrapper = styled(Card)`
     justify-content: center;
     width: 400px;
     height: 400px;
+    margin: 20px;
+    padding: 0px;
+    border-width: 0px;
   }
 
   .card-body {
     margin-right: 0;
   }
 
+  .card-header {
+    align-content: center;
+    flex-direction: row;
+  }
+
   .github {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     float: right;
+    margin: auto;
     font-size: 15pt;
   }
 
-  span {
+  .title {
     font-size: 30px;
-    margin-right: 50px;
+  }
+  @media screen and (max-width: 480px) {
+    img {
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      height: auto;
+    }
+
+    .card-body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .card-header {
+      flex-direction: column;
+    }
+    .github {
+      float: none;
+    }
+
+    .title {
+      font-size: 30px;
+      margin-right: 0px;
+    }
   }
 `;
 
 const AppCard = ({title, github, deployed, img}) => {
   return (
     <DetailsWrapper>
-      <Card>
+      <div className="card">
         <a href={deployed}>
           <CardHeader>
-            <span>{title} </span>
+            <span className="title">{title} </span>
+            <a className="github" href={github}>GitHub</a>
           </CardHeader>
           <CardBody>
               <img src={img} />
-              <a className="github" href={github}>GitHub</a>
           </CardBody>
         </a>
-      </Card>
+      </div>
     </DetailsWrapper>
   );
 }
