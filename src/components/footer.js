@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Row, Col } from "reactstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 
 const FooterWrapper = styled.div`
   span {
@@ -8,7 +11,7 @@ const FooterWrapper = styled.div`
     color: white;
   }
 
-  i {
+  svg {
     font-size: 30pt;
     color: white;
   }
@@ -28,7 +31,7 @@ const FooterWrapper = styled.div`
       color: white;
     }
 
-    i {
+    icon {
       font-size: 30pt;
       color: white;
     }
@@ -45,17 +48,28 @@ const FooterWrapper = styled.div`
 `;
 
 function Footer() {
+  console.log('fab: ', fab);
+  const { faGithub, faLinkedin } = fab;
   return (
     <FooterWrapper>
       <footer>
         <span>  
-          <a href="https://www.linkedin.com/in/jason-t-tilley/">  
+          {/* <a href="https://www.linkedin.com/in/jason-t-tilley/">  
             <i className="fab fa-linkedin">  </i>  
           </a>
         </span>
         <span>
           <a href="https://github.com/jttilley">  
             <i className="fab fa-github">  </i>
+          </a> */}
+
+          <a href="https://www.linkedin.com/in/jason-t-tilley/">  
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+        </span>
+        <span>
+          <a href="https://github.com/jttilley">  
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </span>
         <span>

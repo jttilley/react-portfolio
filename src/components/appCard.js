@@ -60,7 +60,7 @@ const DetailsWrapper = styled(Card)`
   }
 `;
 
-const AppCard = ({title, github, deployed, img}) => {
+const AppCard = ({title, github, deployed, img, imgDescription}) => {
   return (
     <DetailsWrapper>
       <div className="card">
@@ -70,7 +70,7 @@ const AppCard = ({title, github, deployed, img}) => {
             <a className="github" href={github}>GitHub</a>
           </CardHeader>
           <CardBody>
-              <img src={img} />
+              <img alt={imgDescription} src={img} />
           </CardBody>
         </a>
       </div>

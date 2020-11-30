@@ -1,9 +1,10 @@
 import React, { useState } from "react"
 import { Nav } from "reactstrap";
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
-const navWrapper = styled.div`
+const NavWrapper = styled.div`
   span {
     .fab {
       font-size: 30pt;
@@ -30,10 +31,7 @@ const navWrapper = styled.div`
 `;
 
 const NavBar = ({title}) => {
-  let [click, setClick] = useState(false);
-  // const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
+  const { faGithub, faLinkedin } = fab;
   const links = [
     {
       link:"/",
@@ -48,8 +46,8 @@ const NavBar = ({title}) => {
   ]
 
   return (
-    <navWrapper>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
+    <NavWrapper>
+      <Nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <div className="box">
             <span className="title" href="/about"><h1>Jason Tilley</h1></span>
         </div>
@@ -61,20 +59,25 @@ const NavBar = ({title}) => {
                   <a className="nav-link" href={link}>{name}</a>
                 </li>
               ))}
+              <li className="icon">
+                <a className="nav-link" href="https://docs.google.com/document/d/1JZmUQ6V4Xdrd1v8K9TQgww6I28AzIHfSSeBME6vDJ1w/edit?usp=sharing">  
+                  Resume
+                </a>
+              </li>
               <li className="icon">  
-                <a className="nav-link" href="https://www.linkedin.com/in/jason-t-tilley/">  
-                  <i className="fab fa-linkedin"> LinkedIn </i>  
+                <a className="nav-link" href="https://www.linkedin.com/in/jason-t-tilley/"> 
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" /> 
                 </a>
               </li>
               <li className="icon">
                 <a className="nav-link" href="https://github.com/jttilley">  
-                  <i className="fab fa-github"> GitHub </i>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </li>
             </ul>
         </div>
-      </nav>
-    </navWrapper>
+      </Nav>
+    </NavWrapper>
   );
 }
 export default NavBar;

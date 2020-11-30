@@ -3,31 +3,37 @@
     "title": "Weather Trips",
     "github": "https://github.com/jttilley/Weather-Trips",
     "deployed": "https://jttilley.github.io/Weather-Trips/",
-    "img": "../images/Weather-Trips.png"
+    "img": "../images/Weather-Trips.png",
+    "imgDescription": "A mapped route with weather cards next to it."
   },{
     "title": "BillBoard Budget",
     "github": "https://github.com/jttilley/BillBoards",
     "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
-    "img": "../images/BillBoardBudget.png"
+    "img": "../images/BillBoardBudget.png",
+    "imgDescription": "Bill Board budget page"
   },{
     "title": "Weather Dashboard",
     "github": "https://github.com/jttilley/WeatherDashboard",
     "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
-    "img": "../images/Weather-Dashboard.png"
+    "img": "../images/Weather-Dashboard.png",
+    "imgDescription": "Weather cards with weather icons and info"
   },{
     "title": "Note Taker",
     "github": "https://github.com/jttilley/NoteTaker",
     "deployed": "https://secure-lowlands-99445.herokuapp.com/",
-    "img": "../images/NoteTaker.png"
+    "img": "../images/NoteTaker.png",
+    "imgDescription": "A list of note titles and an open note."
   },{
     "title": "Work Day Planner",
     "github": "https://github.com/jttilley/WorkDayPlanner",
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
-    "img": "../images/Work-Day-Planner.png"
+    "img": "../images/Work-Day-Planner.png",
+    "imgDescription": "A work day broken up by hour color coded to show what has passed, where we are and what is to come."
   },{
     "title": "Eat Da Burger",
     "github": "https://github.com/jttilley/burger",
     "deployed": "https://cryptic-tor-81296.herokuapp.com/",
-    "img": "../images/burger.png"
+    "img": "../images/burger.png",
+    "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
   }
 ]
