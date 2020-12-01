@@ -1,8 +1,9 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Nav } from "reactstrap";
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 const NavWrapper = styled.div`
   span {
@@ -61,7 +62,7 @@ const NavBar = ({title}) => {
             <ul className="navbar-nav ml-auto items">
               {links.map(({ name, link }) => (
                 <li className="item">
-                  <a className="nav-link" href={link}>{name}</a>
+                 <Link className="nav-link" to={link}>{name}</Link>
                 </li>
               ))}
               <li className="icon">
