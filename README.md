@@ -29,7 +29,7 @@ HTTP, CSS, JavaScript, Bootstrap, React, reactstrap, styled-components
     
 
 ## Example
-![example](./public/images/Portfolio.png)
+![example](./images/Portfolio.png)
 
 ## Installation
 To install the necessary denpendencies, run the following command:
