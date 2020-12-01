@@ -5,6 +5,7 @@ import myApps from "../assets/data/portfolio-apps.json";
 import AppCard from "./appCard";
 import NavBar from "./nav";
 import Footer from "./footer";
+import Background from "./background";
 
 const PortfolioWrapper = styled.div`
   .card-holder {
@@ -19,31 +20,31 @@ const PortfolioWrapper = styled.div`
   }
 `;
 
-
-
 const Portfolio = () => {
 
   return (
     <PortfolioWrapper>
-      <NavBar />
-      <div className="card-holder">
-        <Container >
-          <Row>
-            {myApps.map(app => (
-              <Col key={app.title}>
-                <AppCard 
-                  title={app.title}
-                  img={app.img}
-                  github={app.github}
-                  deployed={app.deployed}
-                  imgDescription={app.imgDescription}
+      <Background>
+        <NavBar />
+        <div className="card-holder">
+          <Container >
+            <Row>
+              {myApps.map(app => (
+                <Col key={app.title}>
+                  <AppCard 
+                    title={app.title}
+                    img={app.img}
+                    github={app.github}
+                    deployed={app.deployed}
+                    imgDescription={app.imgDescription}
                   />
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </div>
-      <Footer />
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        </div>
+        <Footer />
+      </Background>
     </PortfolioWrapper>
   );
 }

@@ -1,16 +1,11 @@
 import React from "react"
 import {Container, Row, Col } from "reactstrap";
 import styled from "styled-components";
+import Background from "./background";
 import Footer from "./footer";
 import NavBar from "./nav";
 
 const ContactWrapper = styled.div`
-    .fullbackground {
-    background-image: url("./images/background.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-  }
   .container {
     height: 600px;
     margin-top: 30px;
@@ -22,6 +17,11 @@ const ContactWrapper = styled.div`
       margin: 20px;
     }
   }
+  .contactpic {
+    width: 100%;
+    height: auto;
+
+  }
   @media screen and (max-width: 480px) {
     .container { 
       height: 50%;
@@ -32,11 +32,15 @@ const ContactWrapper = styled.div`
 const Contact = () => {
   return (
     <ContactWrapper>
-      <div className="fullbackground">
+      <Background>
         <NavBar />
         <Container>
-          <Row>
-            <Col lg={12}>
+          <Row className="card-header">
+            <Col lg={4} className="card card-body">
+            <img className="contactpic" alt="Jason Tilley" src="https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/Family.jpeg?raw=true" />
+            </Col>
+            <Col lg={8} className="card card-body">
+
               <ul className="info">
                 <li > GitHub: <a  href="https://github.com/jttilley">jttilley</a>
                 </li>
@@ -49,7 +53,7 @@ const Contact = () => {
           </Row>
         </Container>
         <Footer />
-      </div>
+      </Background>
     </ContactWrapper>
   );
 }
