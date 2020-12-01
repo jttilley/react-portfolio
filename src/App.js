@@ -7,7 +7,7 @@ import Contact from './components/contact';
 function App() {
   return (
     <>
-      <Router basename='/›'>
+      <Router basename='/'>
         <Route exact path="/" component={Portfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />

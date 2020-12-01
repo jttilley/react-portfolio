@@ -3,7 +3,7 @@
     "title": "Weather Trips",
     "github": "https://github.com/jttilley/Weather-Trips",
     "deployed": "https://jttilley.github.io/Weather-Trips/",
-    "img": "./images/Weather-Trips.png",
+    "img": "../public/images/Weather-Trips.png",
     "imgDescription": "A mapped route with weather cards next to it."
   },{
     "title": "BillBoard Budget",

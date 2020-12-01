@@ -55,14 +55,14 @@ const NavBar = ({title}) => {
     <NavWrapper>
       <Nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
         <div className="box">
-            <a className="title" href="/about"><h1>Jason Tilley</h1></a>
+            <Link className="title" to="/about"><h1>Jason Tilley</h1></Link>
         </div>
 
         <div className="ml-auto" id="navbarNav">
             <ul className="navbar-nav ml-auto items">
               {links.map(({ name, link }) => (
                 <li className="item">
-                 <Link className="nav-link" to={link}>{name}</Link>
+                  <Link className="nav-link" to={link}>{name}</Link>
                 </li>
               ))}
               <li className="icon">
