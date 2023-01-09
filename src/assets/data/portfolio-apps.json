@@ -28,6 +28,6 @@
     "title": "Brotien",
     "github": "https://github.com/jttilley/Brotein",
     "deployed": "https://brotein.herokuapp.com/",
-    "img": "../images/brotein.jpg"
+    "img": "../../images/brotein.jpg"
   }
 ]
