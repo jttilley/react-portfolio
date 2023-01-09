@@ -6,7 +6,7 @@
 Uses React to display my portfolio and information.
 
 ## Links
-Deployed link: 
+Deployed link: https://jttilley.github.io/react-portfolio/
 
 Repo link: https://github.com/jttilley/react-portfolio
 
@@ -14,7 +14,7 @@ Repo link: https://github.com/jttilley/react-portfolio
 Jason Tilley
 
 ## Tech Used
-HTTP, CSS, JavaScript, Bootstrap, React
+HTTP, CSS, JavaScript, Bootstrap, React, reactstrap, styled-components
 
 ## Table of Contents
   * [Example](#example)
@@ -29,7 +29,7 @@ HTTP, CSS, JavaScript, Bootstrap, React
     
 
 ## Example
-![example](./public/assets/images/Screen-Shot.png)
+![example](./public/images/Portfolio.png)
 
 ## Installation
 To install the necessary denpendencies, run the following command:
@@ -38,6 +38,8 @@ npm i
 ```
 
 ## Usage
+Click on deployed link above. 
+- or -
 * Fork it
 * Clone it to your computer
 * run "npm start" in the terminal
