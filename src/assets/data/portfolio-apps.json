@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Weather Trips",
+    "github": "https://github.com/jttilley/Weather-Trips",
+    "deployed": "https://jttilley.github.io/Weather-Trips/",
+    "img": "../images/Weather-Trips.png"
+  },{
+    "title": "BillBoard Budget",
+    "github": "https://github.com/jttilley/BillBoards",
+    "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
+    "img": "../images/BillBoardBudget.png"
+  },{
+    "title": "Weather Dashboard",
+    "github": "https://github.com/jttilley/WeatherDashboard",
+    "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
+    "img": "../images/Weather-Dashboard.png"
+  },{
+    "title": "Note Taker",
+    "github": "https://github.com/jttilley/NoteTaker",
+    "deployed": "https://secure-lowlands-99445.herokuapp.com/",
+    "img": "../images/NoteTaker.png"
+  },{
+    "title": "Work Day Planner",
+    "github": "https://github.com/jttilley/WorkDayPlanner",
+    "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
+    "img": "../images/Work-Day-Planner.png"
+  },{
+    "title": "Brotien",
+    "github": "https://github.com/jttilley/Brotein",
+    "deployed": "https://brotein.herokuapp.com/",
+    "img": "../images/brotein.jpg"
+  }
+]

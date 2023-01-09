@@ -38,8 +38,6 @@ npm i
 ```
 
 ## Usage
-Click on deployed link above. 
-- or -
 * Fork it
 * Clone it to your computer
 * run "npm start" in the terminal
