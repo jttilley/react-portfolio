@@ -3,49 +3,49 @@
     "title": "Weather Trips",
     "github": "https://github.com/jttilley/Weather-Trips",
     "deployed": "https://jttilley.github.io/Weather-Trips/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/Weather-Trips.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Trips.png?raw=true",
     "imgDescription": "A mapped route with weather cards next to it."
   },{
     "title": "BillBoard Budget",
     "github": "https://github.com/jttilley/BillBoards",
     "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/BillBoardBudget.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/BillBoardBudget.png?raw=true",
     "imgDescription": "Bill Board budget page"
   },{
     "title": "Employee Directory",
     "github": "https://github.com/jttilley/employee-directory",
     "deployed": "https://jttilley.github.io/employee-directory/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/employeesDir.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/employeesDir.png?raw=true",
     "imgDescription": "List of employees info and a search bar"
   },{
     "title": "Workout Tracker",
     "github": "https://github.com/jttilley/WorkoutTracker",
     "deployed": "https://workout-tracker-37.herokuapp.com/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/Workout_Tracker.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Workout_Tracker.png?raw=true",
     "imgDescription": "Charts and graphs about workouts"
   },{
     "title": "Weather Dashboard",
     "github": "https://github.com/jttilley/WeatherDashboard",
     "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/Weather-Dashboard.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
     "imgDescription": "Weather cards with weather icons and info"
-  },{
-    "title": "Note Taker",
-    "github": "https://github.com/jttilley/NoteTaker",
-    "deployed": "https://secure-lowlands-99445.herokuapp.com/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/NoteTaker.png?raw=true",
-    "imgDescription": "A list of note titles and an open note."
   },{
     "title": "Work Day Planner",
     "github": "https://github.com/jttilley/WorkDayPlanner",
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
-    "img": "https://github.com/jttilley/react-portfolio/blob/gh-pages/public/images/Work-Day-Planner.png?raw=true",
+    "img": "https://github.com/jttilley/react-portfolio/blob//main/images/Work-Day-Planner.png?raw=true",
     "imgDescription": "A work day broken up by hour color coded to show what has passed, where we are and what is to come."
   },{
-    "title": "Eat Da Burger",
-    "github": "https://github.com/jttilley/burger",
-    "deployed": "https://cryptic-tor-81296.herokuapp.com/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg",
+    "title": "Brotein",
+    "github": "https://github.com/jttilley/Brotein",
+    "deployed": "https://brotein.herokuapp.com/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg?raw=true",
     "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
+  },{
+    "title": "Macro Automation Videos",
+    "github": "",
+    "deployed": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/NoteTaker.png?raw=true",
+    "imgDescription": "A list of note titles and an open note."
   }
 ]
