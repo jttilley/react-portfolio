@@ -3,31 +3,43 @@
     "title": "Weather Trips",
     "github": "https://github.com/jttilley/Weather-Trips",
     "deployed": "https://jttilley.github.io/Weather-Trips/",
-    "img": "../images/Weather-Trips.png"
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Trips.png?raw=true",
+    "imgDescription": "A mapped route with weather cards next to it."
   },{
-    "title": "BillBoard Budget",
-    "github": "https://github.com/jttilley/BillBoards",
-    "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
-    "img": "../images/BillBoardBudget.png"
+    "title": "Brotein",
+    "github": "https://github.com/jttilley/Brotein",
+    "deployed": "https://brotein.herokuapp.com/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg?raw=true",
+    "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
+  },{
+    "title": "Macro Automation Videos",
+    "github": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
+    "deployed": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Macro%20Videos.png?raw=true",
+    "imgDescription": "Videos showing how many macros work."
+  },{
+    "title": "Employee Directory",
+    "github": "https://github.com/jttilley/employee-directory",
+    "deployed": "https://jttilley.github.io/employee-directory/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/employeesDir.png?raw=true",
+    "imgDescription": "List of employees info and a search bar"
+  },{
+    "title": "Workout Tracker",
+    "github": "https://github.com/jttilley/WorkoutTracker",
+    "deployed": "https://workout-tracker-37.herokuapp.com/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Workout_Tracker.png?raw=true",
+    "imgDescription": "Charts and graphs about workouts"
   },{
     "title": "Weather Dashboard",
     "github": "https://github.com/jttilley/WeatherDashboard",
     "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
-    "img": "../images/Weather-Dashboard.png"
-  },{
-    "title": "Note Taker",
-    "github": "https://github.com/jttilley/NoteTaker",
-    "deployed": "https://secure-lowlands-99445.herokuapp.com/",
-    "img": "../images/NoteTaker.png"
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
+    "imgDescription": "Weather cards with weather icons and info"
   },{
     "title": "Work Day Planner",
     "github": "https://github.com/jttilley/WorkDayPlanner",
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
-    "img": "../images/Work-Day-Planner.png"
-  },{
-    "title": "Brotien",
-    "github": "https://github.com/jttilley/Brotein",
-    "deployed": "https://brotein.herokuapp.com/",
-    "img": "../../images/brotein.jpg"
+    "img": "https://github.com/jttilley/react-portfolio/blob//main/images/Work-Day-Planner.png?raw=true",
+    "imgDescription": "A work day broken up by hour color coded to show what has passed, where we are and what is to come."
   }
 ]
