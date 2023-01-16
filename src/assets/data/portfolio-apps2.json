@@ -6,6 +6,18 @@
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Trips.png?raw=true",
     "imgDescription": "A mapped route with weather cards next to it."
   },{
+    "title": "Brotein",
+    "github": "https://github.com/jttilley/Brotein",
+    "deployed": "https://brotein.herokuapp.com/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg?raw=true",
+    "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
+  },{
+    "title": "Macro Automation Videos",
+    "github": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
+    "deployed": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Macro%20Videos.png?raw=true",
+    "imgDescription": "Videos showing how many macros work."
+  },{
     "title": "BillBoard Budget",
     "github": "https://github.com/jttilley/BillBoards",
     "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
@@ -35,17 +47,5 @@
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
     "img": "https://github.com/jttilley/react-portfolio/blob//main/images/Work-Day-Planner.png?raw=true",
     "imgDescription": "A work day broken up by hour color coded to show what has passed, where we are and what is to come."
-  },{
-    "title": "Brotein",
-    "github": "https://github.com/jttilley/Brotein",
-    "deployed": "https://brotein.herokuapp.com/",
-    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg?raw=true",
-    "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
-  },{
-    "title": "Macro Automation Videos",
-    "github": "",
-    "deployed": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
-    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/NoteTaker.png?raw=true",
-    "imgDescription": "A list of note titles and an open note."
   }
 ]

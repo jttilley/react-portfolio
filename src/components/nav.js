@@ -1,38 +1,43 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Nav } from "reactstrap";
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
-const navWrapper = styled.nav`
-.navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+const NavWrapper = styled.div`
+  span {
+    .fab {
+      font-size: 30pt;
+      margin-left: 50px;
+    }
   }
-
-  .nav {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
+  nav {
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  .box {
+    color: black;
+    a {
+      color: navy;
+    }
+  }
+  @media screen and (max-width: 780) {
+    #navbarNav {
+      flex-direction: row;
+      text-align: center;
+      justify-items: space-between;
+      align-content: center;
+    }
+    .items {
+        display: flex;
+        flex-direction: row;
+      }
   }
 `;
 
-const NavBar = () => {
-  let [click, setClick] = useState(false);
-  // const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
+const NavBar = ({title}) => {
+  const { faGithub, faLinkedin } = fab;
   const links = [
     {
       link:"/",
@@ -47,19 +52,38 @@ const NavBar = () => {
   ]
 
   return (
-    <navWrapper>
-      <Nav>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          {links.map(({ name, link }) => (
-            <li className='nav-item'>
-                <Link to={link} className='nav-links' onClick={closeMobileMenu}>
-                    {name}
-                </Link>
-            </li>
-          ))}
-        </ul>
+    <NavWrapper>
+      <Nav className="navbar navbar-expand-lg navbar-light bg-light shadow ">
+        <div className="box">
+            <Link className="title" to="/about"><h1>Jason Tilley</h1></Link>
+        </div>
+
+        <div className="ml-auto" id="navbarNav">
+            <ul className="navbar-nav ml-auto items">
+              {links.map(({ name, link }) => (
+                <li className="item">
+                  <Link className="nav-link" to={link}>{name}</Link>
+                </li>
+              ))}
+              <li className="icon">
+                <a className="nav-link" href="https://docs.google.com/document/d/1JZmUQ6V4Xdrd1v8K9TQgww6I28AzIHfSSeBME6vDJ1w/edit?usp=sharing">  
+                  Resume
+                </a>
+              </li>
+              <li className="icon">  
+                <a className="nav-link" href="https://www.linkedin.com/in/jason-t-tilley/"> 
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" /> 
+                </a>
+              </li>
+              <li className="icon">
+                <a className="nav-link" href="https://github.com/jttilley">  
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
+              </li>
+            </ul>
+        </div>
       </Nav>
-    </navWrapper>
+    </NavWrapper>
   );
 }
 export default NavBar;
