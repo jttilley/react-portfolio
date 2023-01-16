@@ -4,42 +4,36 @@
     "github": "https://github.com/jttilley/Weather-Trips",
     "deployed": "https://jttilley.github.io/Weather-Trips/",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Trips.png?raw=true",
-    "imgDescription": "A mapped route with weather cards next to it."
+    "imgDescription": "A mapped route of your trip with weather cards next to it for each stop along the way based on when you will get there according to google travel times and 1hr per stop."
   },{
     "title": "Brotein",
     "github": "https://github.com/jttilley/Brotein",
     "deployed": "https://brotein.herokuapp.com/",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/brotein.jpg?raw=true",
-    "imgDescription": "2 lists, one with burgers to be devoured and one with burgers that have been devoured"
+    "imgDescription": "Track your workouts and meals, and find recipies based on specific foods or youtube workout videos."
   },{
     "title": "Macro Automation Videos",
     "github": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
     "deployed": "https://loom.com/share/folder/999bbd5d48144b65b4ce7658225a97ad",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Macro%20Videos.png?raw=true",
-    "imgDescription": "Videos showing how many macros work."
+    "imgDescription": "Videos showing how many macros I've made for Lazer Designs work."
   },{
     "title": "Employee Directory",
     "github": "https://github.com/jttilley/employee-directory",
     "deployed": "https://jttilley.github.io/employee-directory/",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/employeesDir.png?raw=true",
-    "imgDescription": "List of employees info and a search bar"
+    "imgDescription": "List of employees info that can be organized by any column and a search bar to trim the list."
   },{
     "title": "Workout Tracker",
     "github": "https://github.com/jttilley/WorkoutTracker",
     "deployed": "https://workout-tracker-37.herokuapp.com/",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Workout_Tracker.png?raw=true",
-    "imgDescription": "Charts and graphs about workouts"
-  },{
-    "title": "Weather Dashboard",
-    "github": "https://github.com/jttilley/WeatherDashboard",
-    "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
-    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
-    "imgDescription": "Weather cards with weather icons and info"
+    "imgDescription": "Add your workouts and see Charts and graphs about the workouts."
   },{
     "title": "Work Day Planner",
     "github": "https://github.com/jttilley/WorkDayPlanner",
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
     "img": "https://github.com/jttilley/react-portfolio/blob//main/images/Work-Day-Planner.png?raw=true",
-    "imgDescription": "A work day broken up by hour color coded to show what has passed, where we are and what is to come."
+    "imgDescription": "A work day with scheduled tasks broken up by hour color coded to show what has passed, where we are and what is to come."
   }
 ]

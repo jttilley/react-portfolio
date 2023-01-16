@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Portfolio from './components/portfolio';
 import About from './components/about';
 import Contact from './components/contact';

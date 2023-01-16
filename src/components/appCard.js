@@ -4,14 +4,15 @@ import styled from "styled-components";
 
 const DetailsWrapper = styled(Card)`
   img {
-    display: flex;
-    justify-content: center;
-    width: 400px;
+    width: 450px;
     height: 400px;
+    margin-top: 10px;
   }
 
   .card-body {
-    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .github {
@@ -22,23 +23,33 @@ const DetailsWrapper = styled(Card)`
     font-size: 15pt;
   }
 
+  .description {
+    /* width: 400px; */
+    font-size: 18px;
+  }
+
   span {
     font-size: 30px;
-    margin-right: 50px;
+    margin-right: 0px;
   }
+
+
 `;
 
-const AppCard = ({title, github, deployed, img}) => {
+const AppCard = ({title, github, deployed, img, imgDescription}) => {
   return (
     <DetailsWrapper>
-      <Card>
+      <Card sx={{paddingTop:'50px'}}>
         <a href={deployed}>
           <CardHeader>
-            <span>{title} </span>
+            <span>{title} <a className="github" href={github}>GitHub</a></span>
+            
           </CardHeader>
           <CardBody>
-              <img src={img} />
-              <a className="github" href={github}>GitHub</a>
+            <div className="description"><strong>{imgDescription}</strong></div>
+            <img src={img} alt={imgDescription}/>
+            {/* <CardHeader> */}
+            {/* </CardHeader> */}
           </CardBody>
         </a>
       </Card>

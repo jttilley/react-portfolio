@@ -1,7 +1,13 @@
-{
+  {
     "title": "BillBoard Budget",
     "github": "https://github.com/jttilley/BillBoards",
     "deployed": "https://sleepy-eyrie-55325.herokuapp.com/",
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/BillBoardBudget.png?raw=true",
     "imgDescription": "Bill Board budget page"
+  },{
+    "title": "Weather Dashboard",
+    "github": "https://github.com/jttilley/WeatherDashboard",
+    "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
+    "imgDescription": "Weather cards for specified cities with weather icons showing the weather and listed info"
   }

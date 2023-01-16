@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
