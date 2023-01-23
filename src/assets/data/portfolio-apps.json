@@ -6,6 +6,12 @@
     "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Trips.png?raw=true",
     "imgDescription": "A mapped route of your trip with weather cards next to it for each stop along the way based on when you will get there according to google travel times and 1hr per stop."
   },{
+    "title": "Bill Board Budget",
+    "github": "https://github.com/jttilley/BillBoards",
+    "deployed": "https://billboards.herokuapp.com/",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/BillBoardBudget.png?raw=true",
+    "imgDescription": "Bill Board is a budgeting app with suggested amounts for categories based on your current income."
+  },{
     "title": "Brotein",
     "github": "https://github.com/jttilley/Brotein",
     "deployed": "https://brotein.herokuapp.com/",
@@ -35,5 +41,11 @@
     "deployed": "https://jttilley.github.io/WorkDayPlanner/index.html",
     "img": "https://github.com/jttilley/react-portfolio/blob//main/images/Work-Day-Planner.png?raw=true",
     "imgDescription": "A work day with scheduled tasks broken up by hour color coded to show what has passed, where we are and what is to come."
+  },{
+    "title": "Weather Dashboard",
+    "github": "https://github.com/jttilley/WeatherDashboard",
+    "deployed": "https://jttilley.github.io/WeatherDashboard/index.html",
+    "img": "https://github.com/jttilley/react-portfolio/blob/main/images/Weather-Dashboard.png?raw=true",
+    "imgDescription": "Weather cards for specified cities with weather icons showing the weather and listed info"
   }
 ]
